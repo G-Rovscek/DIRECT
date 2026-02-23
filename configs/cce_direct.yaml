@@ -1,0 +1,14 @@
+testing:
+  mode: test
+  num_runs: 1
+  model_dir:  /path/to/model_dir/
+  save_recons: true
+
+inference:
+  Nk: 25 # Flow steps
+  N: 16 # Num Recons
+
+cce:
+  export_dir: /path/to/export/results/cce
+  file: filename.json
+  # recons: /path/to/recons/reconstructions.pt # Optional to calculate from saved reconstructions

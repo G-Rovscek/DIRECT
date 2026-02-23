@@ -1,0 +1,17 @@
+testing:
+  mode: test
+  num_runs: 10
+  model_dir:  /path/to/model_dir/
+  save_recons: true
+
+inference:
+  Nk: 25 # Flow steps
+  N: 16 # Num Recons
+
+va:
+  export_dir: /path/to/export/results/va
+  file: filename.json 
+  # recons: /path/to/reconstructions.pt # Optional to calculate from saved reconstructions
+  sigma0: 0.135  # Mediterranean
+  # sigma0: 0.101  # Adriatic
+  # sigma0: 0.298  # Atlantic
