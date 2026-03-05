@@ -1,5 +1,7 @@
 # DIRECT 1.0: A diffusion-based generative model for dense sea surface temperature reconstructions from sparse satellite observations
 
+[![DOI](https://zenodo.org/badge/1164482863.svg)](https://doi.org/10.5281/zenodo.18875309)
+
 This repository contains the official PyTorch implementation of the paper ["DIRECT 1.0: A diffusion-based generative model for dense sea surface temperature reconstructions from sparse satellite observations"]
 
 ## Abstract
